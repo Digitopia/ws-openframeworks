@@ -1,0 +1,100 @@
+doctype html
+html
+  head
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='chrome=1')
+    link(rel='stylesheet', href='stylesheets/styles.css')
+    link(rel='stylesheet', href='stylesheets/github-light.css')
+    meta(name='viewport', content='width=device-width')
+
+    title Digitopia/ws-openframeworks
+
+  body
+
+    mixin header(title, anchor)
+      h3
+        a.anchor(href=anchor, aria-hidden='true')
+          span.octicon.octicon-link(aria-hidden='true')
+        | #{title}
+
+    .wrapper
+
+      header
+        h2 Musical Hacking <br> com openFrameworks
+        p
+        //- p.view
+        //-   a(href='https://github.com/nunoh/cdm-openframeworks-workshop')
+        //-     | View the Project on GitHub
+        //-     small nunoh/cdm-openframeworks-workshop
+
+        img(src="images/digitopia-logo.png" width="220px")
+
+        br
+        br
+
+        //- p
+        //-   a(href="http://www.casadamusica.com/digitopia") www.casadamusica.com/digitopia
+
+        //- <ul>
+        //- <li><a href="https://github.com/nunoh/cdm-openframeworks-workshop/zipball/master">&nbsp;<strong>C++</strong>&nbsp;</a></li>
+        //- <li><a href="https://github.com/nunoh/cdm-openframeworks-workshop/tarball/master">Download <strong>TAR Ball</strong></a></li>
+        //- <li><a href="https://github.com/nunoh/cdm-openframeworks-workshop">View On <strong>GitHub</strong></a></li>
+        //- </ul>
+
+      section
+
+        +header("Descrição", "#descricao")
+
+        p  Recorrendo à biblioteca open source <a href='http://openframeworks.cc', target='_blank'>openFrameworks</a>, serão abordados de modo simples, conceitos e técnicas de criação de pequenos programas artísticos. Segue-se o trabalho com as ferramentas <a href="https://git-scm.com target=_blank">git</a> e <a href='http://www.github.com' target='_blank'>Github</a> úteis para desenvolver software colaborativamente. Haverá no fim uma <a href="https://en.wikipedia.org/wiki/Hackathon" target="_blank">hackathon</a>, com a modificação de projectos open source já disponíveis e/ou desenvolvimento de ideias dos participantes.
+
+        //- h3 O que é o openFrameworks?
+        //-
+        //- iframe(src='https://player.vimeo.com/video/74124094?title=0&byline=0&portrait=0', width='480', height='270', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+
+        +header("Quando", "#quando")
+
+        p O workshop vai decorrer durante os dias <strong>7 e 8 de Maio de 2016</strong>, Sábado e Domingo respectivamente.
+
+        +header("Onde", "#Onde")
+
+        p O workshop irá decorrer na <strong>Casa da Música</strong>, mais concretamente na Sala de Ensaio 10.
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12015.536323559953!2d-8.6306949!3d41.1588807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc35ebaec444540ed!2sCasa+da+M%C3%BAsica!5e0!3m2!1sen!2spt!4v1462120012872" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        p
+
+        +header("Formador", "#formador")
+
+        p Nuno Hespanhol (<a href="https://github.com/nunoh" target="_blank">@nunoh</a>).
+
+        +header("Plano", "#plano")
+
+        h4 Sábado (7 de Maio)
+        p <strong>Introdução à programação criativa com openFrameworks.</strong> Introdução à linguagem C++, conceitos de programação orientada a objectos e à biblioteca criativa openFrameworks. Exploração de diversos exemplos e técnicas de programação criativa: som, imagem, vídeo e animação.
+
+        h4 Domingo (8 de Maio)
+        p <strong>Social Coding e Hackathon.</strong> Introdução às ferramentas colaborativas git e Github. O dia terminará com uma mini hackathon, com a modificação de projectos open source já disponíveis e/ou desenvolvimento de ideias dos participantes.
+
+        +header("Preparação", "#preparação")
+
+        p Para rentabilizar ao máximo o número de conteúdos abordados no workshop, <u>é recomendado que os participantes tragam já o software necessário descarregado e configurado</u>. Para isso, é favor seguir o seguinte <a href="https://github.com/Digitopia/ws-openframeworks/blob/master/guia-instalacao.md" target="_blank">guia de instalação</a>.
+
+        +header("Horário", "#horario")
+
+        p O horário do workshop é das <strong>11h30 às 13h00</strong> e das <strong>14h30 às 17h00</strong>, tanto no Sábado como no Domingo.
+
+        +header("Bilhetes", "#bilhetes")
+
+        p Disponíveis na <a href="http://www.casadamusica.com/pt/servico-educativo/agenda/2016/05/07-maio-2016-musical-hacking-com-openframeworks/42453/?lang=pt#tab=0" target="_blank">página do evento</a> do site oficial da Casa da Música.
+
+        +header("Ajuda", "#ajuda")
+
+        p Em casa de dúvida entrar em contacto <a href="mailto:nuno.hespanhol@gmail.com" target="_blank">diretamente com o formador</a> ou com a <a href="http://www.casadamusica.com/pt/informacoes/horarios-e-contactos/?lang=pt" target="_blank">Casa da Música</a>.
+
+      footer
+        //- <p>This project is maintained by <a href="https://github.com/nunoh">nunoh</a></p>
+        //- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+    script(src='javascripts/scale.fix.js')
+    script(type='text/javascript', src='http://localhost:35729/livereload.js')
