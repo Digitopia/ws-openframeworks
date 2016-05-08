@@ -16,7 +16,7 @@ Este repostiório contém todos os conteúdos e referências relativas ao worksh
 - [Fórum openFrameworks](https://forum.openframeworks.cc/)
 - [ofxAddons](http://ofxaddons.com/categories)
 - [Lewis Lepton Youtube openFrameworks Tutorial series](https://www.youtube.com/playlist?list=PL4neAtv21WOmrV8z9rSzL20QpdLU1zJLr)
-- [Curso Cursera Introduction to Computational Arts: Visual Arts](https://www.coursera.org/course/compartsvisual)
+- [Curso Coursera Introduction to Computational Arts: Visual Arts](https://www.coursera.org/course/compartsvisual)
 - [Curso Kadenze Creative Programming for Audiovisual Art](https://www.kadenze.com/courses/creative-programming-for-audiovisual-art/info)
 
 #### Participantes 2016
