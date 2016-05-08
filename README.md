@@ -21,8 +21,9 @@ Este repostiório contém todos os conteúdos e referências relativas ao worksh
 
 #### Participantes 2016
 
+
 - Nuno Hespanhol (formador)
-- `<inserir nome via Pull Request>`
+- Jorge Mota (formando)
 
 #### Licença
 
