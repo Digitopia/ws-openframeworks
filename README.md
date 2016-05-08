@@ -19,10 +19,10 @@ Este repostiório contém todos os conteúdos e referências relativas ao worksh
 - [Curso Coursera Introduction to Computational Arts: Visual Arts](https://www.coursera.org/course/compartsvisual)
 - [Curso Kadenze Creative Programming for Audiovisual Art](https://www.kadenze.com/courses/creative-programming-for-audiovisual-art/info)
 
-#### Participantes 2016
+#### Participantes 2016 
 
 - Nuno Hespanhol (formador)
-- `<inserir nome via Pull Request>`
+- Nuno Cordeiro (aluno)
 
 #### Licença
 
