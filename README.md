@@ -24,6 +24,7 @@ Este repostiório contém todos os conteúdos e referências relativas ao worksh
 
 - Nuno Hespanhol (formador)
 - Jorge Mota (formando)
+- Nuno Cordeiro (formando)
 
 #### Licença
 
